@@ -1,12 +1,11 @@
 # Travel Tracker App
 
-A simple Express.js application with PostgreSQL back-end, fully hosted on Render.
-
+A concise travel journal web app that lets users log and review countries they've visited with a quick search feature. It combines Express.js and PostgreSQL for dependable server-rendered pages and secure data storage.
 ---
 
 ## 🚀 Live Demo
 
-Visit the app: `[https://travel-tracker-app-1mty.onrender.com/]`
+Visit the app: [https://travel-tracker-app-1mty.onrender.com/](https://travel-tracker-app-1mty.onrender.com/)
 
 ---
 
