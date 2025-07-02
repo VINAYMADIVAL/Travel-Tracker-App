@@ -1,6 +1,6 @@
 # Travel Tracker App
 
-A concise travel journal web app that lets users log and review countries they've visited with a quick search feature. It combines Express.js and PostgreSQL for dependable server-rendered pages and secure data storage.
+#### A concise travel journal web app that lets users log and review countries they've visited with a quick search feature. It combines Express.js and PostgreSQL for dependable server-rendered pages and secure data storage.
 ---
 
 ## 🚀 Live Demo
