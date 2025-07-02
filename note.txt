@@ -1,0 +1,2 @@
+when writing content from a csv into the table through psql CLI path should be in single quotes and forward-slashes only.
+\copy countries(id,country_code,country_name) FROM 'C:/Users/Lenovo/OneDrive/Desktop/8.5 Family Travel Tracker/countries.csv' DELIMITER ',' CSV HEADER;

@@ -1,7 +1,7 @@
 CREATE TABLE countries(
 	id SERIAL PRIMARY KEY,
 	country_code CHAR(2) UNIQUE NOT NULL,
-	country_name VARCHAR(100)
+	country_name VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE users(
@@ -12,7 +12,7 @@ color VARCHAR(15)
 
 CREATE TABLE visited_countries(
 id SERIAL PRIMARY KEY,
-country_code CHAR(2) UNIQUE NOT NULL,
+country_code CHAR(2) NOT NULL,
 user_id INTEGER REFERENCES users(id)
 );
 
@@ -26,3 +26,6 @@ SELECT *
 FROM visited_countries
 JOIN users
 ON users.id = user_id;
+
+ALTER TABLE visited_countries
+			ADD UNIQUE (user_id, country_code);
